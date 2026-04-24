@@ -4,14 +4,15 @@ import jakarta.ejb.Stateless;
 import jakarta.ejb.TransactionAttribute;
 import jakarta.ejb.TransactionAttributeType;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.LockModeType;
+import jakarta.persistence.PersistenceContext;
+
 import java.math.BigDecimal;
 
 @Stateless
 public class BeneficioEjbService {
 
-    @PersistenceContext
+    @PersistenceContext(unitName = "beneficioPU")
     private EntityManager em;
 
     @TransactionAttribute(TransactionAttributeType.REQUIRED)
