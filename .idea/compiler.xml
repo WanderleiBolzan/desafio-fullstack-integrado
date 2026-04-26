@@ -13,7 +13,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="backend-module" options="" />
+      <module name="backend-module" options="-parameters" />
+      <module name="backend-module (1)" options="-parameters" />
+      <module name="ejb-module" options="-parameters" />
     </option>
   </component>
 </project>
