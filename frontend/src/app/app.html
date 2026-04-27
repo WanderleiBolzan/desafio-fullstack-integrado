@@ -1,0 +1,25 @@
+<div style="padding: 20px; font-family: sans-serif; max-width: 500px;">
+  <h1>Sistema de Benefícios - São Carlos</h1>
+  <hr>
+
+  <h3>Saldos no Banco (H2):</h3>
+  <ul>
+    @for (item of beneficios(); track item.id) {
+    <li>ID: {{ item.id }} - <b>{{ item.valor | currency:'BRL' }}</b></li>
+    } @empty {
+    <li>Nenhum benefício encontrado.</li>
+    }
+  </ul>
+
+  <hr>
+  <h3>Realizar Transferência</h3>
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <input #idDe type="number" placeholder="ID de Origem">
+    <input #idPara type="number" placeholder="ID de Destino">
+    <input #valor type="number" placeholder="Valor (R$)">
+
+    <button (click)="transferir(idDe.value, idPara.value, valor.value)">
+      Confirmar Transferência
+    </button>
+  </div>
+</div>

@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4815841d-4d11-4a86-8fd7-fd3af6b8c05a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/controller/BeneficioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-module/src/main/resources/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-module/src/main/resources/db/seed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejb-module/ejb-module.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BeneficioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BeneficioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BeneficioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BeneficioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BeneficioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BeneficioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/Beneficio.class" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/Beneficio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/Beneficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/model/Beneficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/BeneficioEjbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/BeneficioEjbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/resource/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/resource/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/Beneficio.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/BeneficioEjbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/BeneficioEjbService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejb-module/target/ejb-module-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/ejb-module-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +55,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -54,27 +71,51 @@
   "keyToString": {
     "Application.BackendApplication (1).executor": "Run",
     "Application.BackendApplication.executor": "Run",
+    "JUnit.BeneficioServiceIT.deveRealizarTransferenciaComSucesso.executor": "Run",
+    "JUnit.BeneficioServiceIT.executor": "Run",
+    "Maven.backend-module [clean].executor": "Run",
+    "Maven.backend-module [compile].executor": "Run",
+    "Maven.backend-module [install].executor": "Run",
+    "Maven.backend-module [package].executor": "Run",
+    "Maven.backend-module [test].executor": "Run",
+    "Maven.backend-module [validate].executor": "Run",
     "Maven.bip-teste-integrado [clean].executor": "Run",
     "Maven.bip-teste-integrado [compile].executor": "Run",
+    "Maven.bip-teste-integrado [deploy].executor": "Run",
     "Maven.bip-teste-integrado [install].executor": "Run",
     "Maven.bip-teste-integrado [package].executor": "Run",
+    "Maven.bip-teste-integrado [test].executor": "Run",
+    "Maven.bip-teste-integrado [validate].executor": "Run",
+    "Maven.bip-teste-integrado [verify].executor": "Run",
+    "Maven.ejb-module [clean].executor": "Run",
+    "Maven.ejb-module [compile].executor": "Run",
+    "Maven.ejb-module [install].executor": "Run",
+    "Maven.ejb-module [package].executor": "Run",
+    "Maven.ejb-module [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado",
+    "last_directory_selection": "C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/ejb-module",
+    "last_opened_file_path": "C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/backend-module/src/main/resources/db",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3210728",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Wanderlei\estudos\bip-Teste-Integrado\bip-teste-integrado\backend-module\src\main\resources\db" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Wanderlei\estudos\bip-Teste-Integrado\bip-teste-integrado\backend-module\src\test\java\com\example\backend" />
       <recent name="C:\Wanderlei\estudos\bip-Teste-Integrado\bip-teste-integrado" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BackendApplication">
     <configuration name="BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.backend.BackendApplication" />
       <module name="backend-module (1)" />
@@ -84,6 +125,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeneficioServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-module (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.example.backend.BeneficioServiceIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeneficioServiceIT.deveRealizarTransferenciaComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-module (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.example.backend.BeneficioServiceIT" />
+      <option name="METHOD_NAME" value="deveRealizarTransferenciaComSucesso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,9 +173,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backend-module [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BackendApplication" />
+        <item itemvalue="JUnit.BeneficioServiceIT" />
+        <item itemvalue="Maven.backend-module [test]" />
+        <item itemvalue="JUnit.BeneficioServiceIT.deveRealizarTransferenciaComSucesso" />
       </list>
     </recent_temporary>
   </component>

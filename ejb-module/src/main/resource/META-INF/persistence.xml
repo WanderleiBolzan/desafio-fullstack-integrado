@@ -7,7 +7,7 @@
     <persistence-unit name="beneficioPU" transaction-type="JTA">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>com.example.ejb.Beneficio</class>
+        <class>com.example.ejb.model.Beneficio</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
