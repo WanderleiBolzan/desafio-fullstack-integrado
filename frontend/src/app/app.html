@@ -1,25 +1,37 @@
-<div style="padding: 20px; font-family: sans-serif; max-width: 500px;">
-  <h1>Sistema de Benefícios - São Carlos</h1>
-  <hr>
+<hr>
+<h3>Realizar Transferência</h3>
+<div style="display: flex; flex-direction: column; gap: 10px; background: #f9f9f9; padding: 15px; border-radius: 8px;">
 
-  <h3>Saldos no Banco (H2):</h3>
-  <ul>
-    @for (item of beneficios(); track item.id) {
-    <li>ID: {{ item.id }} - <b>{{ item.valor | currency:'BRL' }}</b></li>
-    } @empty {
-    <li>Nenhum benefício encontrado.</li>
-    }
-  </ul>
+  <label>ID Origem:</label>
+  <input type="number"
+         [value]="idDeInput()"
+         (input)="idDeInput.set($any($event.target).value)"
+         [disabled]="loading()">
 
-  <hr>
-  <h3>Realizar Transferência</h3>
-  <div style="display: flex; flex-direction: column; gap: 10px;">
-    <input #idDe type="number" placeholder="ID de Origem">
-    <input #idPara type="number" placeholder="ID de Destino">
-    <input #valor type="number" placeholder="Valor (R$)">
+  <label>ID Destino:</label>
+  <input type="number"
+         [value]="idParaInput()"
+         (input)="idParaInput.set($any($event.target).value)"
+         [disabled]="loading()">
 
-    <button (click)="transferir(idDe.value, idPara.value, valor.value)">
-      Confirmar Transferência
-    </button>
-  </div>
+  <label>Valor (R$):</label>
+  <input type="number"
+         [value]="valorInput()"
+         (input)="valorInput.set($any($event.target).value)"
+         [disabled]="loading()">
+
+  <button
+    (click)="transferir()"
+    [disabled]="!formularioValido() || loading()"
+    [style.backgroundColor]="(!formularioValido() || loading()) ? '#ccc' : '#28a745'"
+    style="color: white; border: none; padding: 12px; cursor: pointer; border-radius: 4px; font-weight: bold; transition: 0.3s;">
+
+    {{ loading() ? 'Processando...' : 'Confirmar Transferência' }}
+  </button>
+
+  @if (!formularioValido() && !loading()) {
+  <p style="color: #d9534f; font-size: 0.8em; margin: 0;">
+    * Preencha IDs válidos e valor maior que zero para liberar.
+  </p>
+  }
 </div>
