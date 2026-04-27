@@ -1,0 +1,4 @@
+com\example\ejb\BeneficioEjbService.class
+com\example\ejb\dto\BeneficioDto.class
+com\example\ejb\model\Beneficio.class
+com\example\ejb\repository\BeneficioRepository.class

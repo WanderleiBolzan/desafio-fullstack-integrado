@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4815841d-4d11-4a86-8fd7-fd3af6b8c05a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/controller/BeneficioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-module/src/main/resources/db/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-module/src/main/resources/db/seed.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb-module/ejb-module.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/BeneficioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/controller/BeneficioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/java/com/example/backend/controller/BeneficioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-module/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/backend-module-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/classes/com/example/backend/BeneficioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/Beneficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/model/Beneficio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/BeneficioEjbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/java/com/example/ejb/BeneficioEjbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/src/main/resource/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/src/main/resource/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/Beneficio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/BeneficioEjbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/classes/com/example/ejb/BeneficioEjbService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/ejb-module-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/ejb-module-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/BeneficioServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/BeneficioServiceIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,45 +45,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BackendApplication (1).executor": "Run",
-    "Application.BackendApplication.executor": "Run",
-    "JUnit.BeneficioServiceIT.deveRealizarTransferenciaComSucesso.executor": "Run",
-    "JUnit.BeneficioServiceIT.executor": "Run",
-    "Maven.backend-module [clean].executor": "Run",
-    "Maven.backend-module [compile].executor": "Run",
-    "Maven.backend-module [install].executor": "Run",
-    "Maven.backend-module [package].executor": "Run",
-    "Maven.backend-module [test].executor": "Run",
-    "Maven.backend-module [validate].executor": "Run",
-    "Maven.bip-teste-integrado [clean].executor": "Run",
-    "Maven.bip-teste-integrado [compile].executor": "Run",
-    "Maven.bip-teste-integrado [deploy].executor": "Run",
-    "Maven.bip-teste-integrado [install].executor": "Run",
-    "Maven.bip-teste-integrado [package].executor": "Run",
-    "Maven.bip-teste-integrado [test].executor": "Run",
-    "Maven.bip-teste-integrado [validate].executor": "Run",
-    "Maven.bip-teste-integrado [verify].executor": "Run",
-    "Maven.ejb-module [clean].executor": "Run",
-    "Maven.ejb-module [compile].executor": "Run",
-    "Maven.ejb-module [install].executor": "Run",
-    "Maven.ejb-module [package].executor": "Run",
-    "Maven.ejb-module [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/ejb-module",
-    "last_opened_file_path": "C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/backend-module/src/main/resources/db",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3210728",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BackendApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BeneficioServiceIT.deveRealizarTransferenciaComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BeneficioServiceIT.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend-module [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bip-teste-integrado [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ejb-module [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ejb-module [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ejb-module [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ejb-module [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ejb-module [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/ejb-module&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Wanderlei/estudos/bip-Teste-Integrado/bip-teste-integrado/backend-module/src/main/resources/db&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3210728&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Wanderlei\estudos\bip-Teste-Integrado\bip-teste-integrado\backend-module\src\main\resources\db" />

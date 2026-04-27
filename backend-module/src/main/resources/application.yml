@@ -19,13 +19,13 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
-    # Esta linha abaixo é a mais importante agora:
+
     defer-datasource-initialization: true
     properties:
       hibernate:
-        # Bloqueia qualquer geração automática do Hibernate 🛑
+
         jakarta.persistence.schema-generation.database.action: none
-        # Evita que o Hibernate tente validar as tabelas antes da hora
+
         hibernate.temp.use_jdbc_metadata_defaults: false
 
 logging:
